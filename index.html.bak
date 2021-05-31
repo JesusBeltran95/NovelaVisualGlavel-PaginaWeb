@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="Index.css" rel="stylesheet" type="text/css">
+    
+    <title>Novela Visual Glavel</title>
+
+</head>
+
+<body>
+    
+<div id = Contenedor>
+<header>
+    <h1>Novela Visual Glavel</h1>
+</header>
+        
+<nav>
+    <div id = "Menu">
+        <ul class = "Nav"> 
+            <li>
+               <a href="index.html">Inicio</a> 
+            </li>
+            <li>
+                <a href="Beta.html">Beta Game</a>
+            </li>
+            <li>
+                <a href="Historia.html">Historia</a>
+                <ul>
+                    <li>
+                    <a href="Personaje.html">Personajes</a>
+                    <ul>
+                    <li>
+                    <a href="Heroe.html">Heroe</a>
+                    </li>
+                    </ul>
+                    </li>
+                    <li>
+                    <a href="Pergaminos">Pergaminos</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+            <a href="Contactanos.html">Contactanos</a>
+            </li>
+            <li id="login">
+            <a href="Login.html">log in</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+       
+<div class="Clearfix"></div>
+
+      <section id="contacte">
+           
+           <article class="article">
+               <h2>Hola sean Bienvenidos a mi primera pagina wed</h2>
+               <p>Esta es una pagina de prueba para un video juego que estoy creando conel IDE Solarus que lo pueden encontrar en esta pagina <a style="color: yellow" href="https://www.solarus-games.org/">Solarus</a></p>
+               
+           </article>
+           
+           <article class="article">
+               
+               
+               <div class="wond">	
+                   <table id="wold" border="2"  > 
+                        <tr>
+                            <td>
+	
+	
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+               
+           </article>
+           
+           <article class="article">
+               <h2>Aqui tienen una desmotracion de lo que e hecho hasta el momento</h2>
+               <p>hasta el momento solo e configurado los enemigos los npc lo hare mas adelante</p>
+               <div class = "vi" ><video src="hola.mp4" controls autoplay></video></div>
+           </article>
+           
+           <article class="article">
+               <h2>Beta Game</h2>
+               <p>Esta es una beta Cerrada que iniciara el 07/03/2022 y termina el 07/04/2022 puedes incribirte con tu nombre de usurio en el boton de arriba de <a href="http://127.0.0.1:64885/Desarrollo%20Web/Beta.html">BetaGame</a></p>
+               <img id="candado" src="Imagenes/Imagenes/beta.gif">
+                
+           </article>
+           
+           <article class="article">
+               <h2>Gracias por visitar mi pagina adios</h2>
+               <img id="adios" src="Imagenes/Imagenes/Saber(Arturia)_logo.gif">
+           </article>
+           
+       </section>
+       
+       <div class="Clearfix"></div>
+       
+       <footer>
+       
+              Jesus Beltran Wed &copy; 2021
+              
+       </footer>
+        
+</div>
+    
+</body>
+</html>
