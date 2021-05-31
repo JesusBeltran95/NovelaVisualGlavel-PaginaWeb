@@ -1,0 +1,282 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    
+    background: linear-gradient(120deg, rgb(10%, 10%, 30%), rgb(190, 229, 218),rgb(120%, 10%, 20%)) no-repeat center top;
+    height:auto;
+    border: 5px solid black;
+}
+
+#Contenedor{
+    
+    width: 100% auto;
+    height: 100%;
+    margin: 0px auto;
+    border: 5px solid black;
+    position: relative;
+    
+}
+
+header{
+    
+    
+    height: 100px;
+    width: auto;
+    margin: 0px;
+    text-align: center;
+    line-height: 0px;
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 600;
+    
+}
+
+#nombre{
+    
+    width: 100%px;
+    height: 30px;
+    float: left;
+    margin: 10px auto;
+    padding: 20px;
+    background: #6400F3;
+    border-radius: 20px;
+    line-height: 30px;
+    
+}
+
+.Login-box{
+    
+    width: 320px;
+    height: 420px;
+    background: linear-gradient(10deg, rgb(10%, 10%, 50%), rgb(254 ,255, 255),rgb(10%, 10%, 50%));
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 20px;
+    border: solid black;
+    
+    
+}
+
+.Login-box .avatar{
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: -90px;
+    left: calc(55% - 90px);
+    border: solid black;
+}
+
+.Login-box h1{
+    
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    font-family: monospace;
+    
+}
+
+.Login-box label{
+
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+    font-family: monospace;
+    
+}
+
+
+.Login-box input{
+    
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+
+.Login-box input[type="text"],
+.Login-box input[type="password"]{
+    
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+    font-family: monospace;
+    
+}
+
+
+.Login-box input[type="submit"]{
+    
+    border: none;
+    outline: none;
+    height: 40px;
+    background: red;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    font-family: monospace;
+    
+}
+
+.Login-box a{
+    
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgray;
+    font-family: monospace;
+    
+}
+
+.Login-box a:hover{
+    
+    color: white;
+    
+}
+
+nav{
+    
+    background-color:transparent;
+    height: 40px;
+    
+    
+}
+
+#login{
+    
+    float: right;
+    margin: 1px;
+    padding: 2px;
+    
+}
+
+
+#Menu {
+
+    margin:auto;
+    width:100%;			
+    font-family:Arial, Helvetica, sans-serif;
+    float: left;
+}
+			
+ul, ol {
+
+    list-style:none;
+}
+			
+.Nav > li {
+
+    float:left;
+}
+			
+.Nav li a {
+				
+    background-color:black;
+    color:#fff;
+    text-decoration:none;
+    padding:12px 20px;
+    margin:5px;
+    display:block;    
+    border-radius: 20px;   
+	height: 19px;
+}
+			
+.Nav li a:hover {
+    
+    background:linear-gradient(140deg ,rgb(254 ,255, 255),rgb(10%, 10%, 38%));
+			
+}
+			
+.Nav li ul {	
+    
+    display:none;
+    position:absolute;
+    min-width:120px;	
+}
+			
+.Nav li:hover > ul {
+    
+    display:block;
+}
+			
+.Nav li ul li {
+    
+    position:relative;
+}
+			
+.Nav li ul li ul {
+    
+    right:-120px;
+    top:0px;
+    
+}
+
+
+footer{
+    width: 100%;
+    background-color:black;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    position: relative;
+    margin-top: 100%;
+    
+}
+
+
+.clearfix{
+    
+    clear: both;
+    
+}
+
+@media screen and (max-width: 480px) {
+    
+    body{
+        
+        width: auto;
+        display: flex;
+    }
+    
+#Menu {
+    
+    margin:auto;
+    width:100%;	
+    height: 100vh;
+    font-family:monospace, sans-serif;
+    float: left;
+}
+    
+.Login-box{
+    
+    width: 320px;
+    height: 420px;
+    background: linear-gradient(10deg, rgb(10%, 10%, 50%), rgb(254 ,255, 255),rgb(10%, 10%, 50%));
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 20px;
+    border: solid black;
+    
+    
+}
+       
+}

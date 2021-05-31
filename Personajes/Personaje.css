@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    
+    background: linear-gradient(120deg, rgb(10%, 10%, 30%), rgb(190, 229, 218),rgb(120%, 10%, 20%)) no-repeat center top;
+
+}
+
+#nombre{
+    
+    width: 100%px;
+    height: 30px;
+    float: left;
+    margin: 10px auto;
+    padding: 20px;
+    background: #6400F3;
+    border-radius: 20px;
+    line-height: 30px;
+    
+}
+
+#Contenedor{
+    
+    width: 100%;
+    margin: 0px auto;
+    border: 5px solid black;
+    
+}
+
+
+
+header{
+    
+    
+    height: 100px;
+    width: auto;
+    margin: 0px;
+    text-align: center;
+    line-height: 0px;
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 600;
+    
+}
+
+h1{
+    
+    width: 100%px;
+    height: 30px;
+    float: left;
+    margin: 10px auto;
+    padding: 20px;
+    background: #6400F3;
+    border-radius: 20px;
+    line-height: 30px;
+    
+}
+
+nav{
+    
+    background-color:transparent;
+    height: 40px;
+    
+    
+}
+
+#login{
+    
+    float: right;
+    margin: 1px;
+    padding: 2px;
+    
+}
+
+
+#Menu {
+
+    margin:auto;
+    width:100%;			
+    font-family:Arial, Helvetica, sans-serif;
+    float: left;
+}
+			
+ul, ol {
+
+    list-style:none;
+}
+			
+.Nav > li {
+
+    float:left;
+}
+			
+.Nav li a {
+				
+    background-color:black;
+    color:#fff;
+    text-decoration:none;
+    padding:12px 20px;
+    margin:5px;
+    display:block;    
+    border-radius: 20px;   
+	height: 19px;
+}
+			
+.Nav li a:hover {
+    
+    background:linear-gradient(140deg ,rgb(254 ,255, 255),rgb(10%, 10%, 38%));
+			
+}
+			
+.Nav li ul {	
+    
+    display:none;
+    position:absolute;
+    min-width:120px;	
+}
+			
+.Nav li:hover > ul {
+    
+    display:block;
+}
+			
+.Nav li ul li {
+    
+    position:relative;
+}
+			
+.Nav li ul li ul {
+    
+    right:-120px;
+    top:0px;
+    
+}
+
+#PJ{
+    
+   width: 100%;
+    
+}
+
+.Rider{
+    
+   width: 360px;
+    height: 590px;
+    margin: auto;
+    display: block; 
+    
+    
+}
+
+footer{
+    margin-top: 690px;
+    padding: 10px;
+    background-color:black;
+    color: white;
+    text-align: center;
+    height: 100%;
+    line-height: 100px;
+    float: top;
+}
